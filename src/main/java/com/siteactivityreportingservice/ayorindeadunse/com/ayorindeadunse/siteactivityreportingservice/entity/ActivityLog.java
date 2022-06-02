@@ -20,8 +20,8 @@ import java.util.Date;
 public class ActivityLog {
    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
-   private int id;
-   private String activityName;
+   private int key;
+   private String activityKey;
    private int activityValue;
    private Date dateLogged;
    private Date dateModified;
