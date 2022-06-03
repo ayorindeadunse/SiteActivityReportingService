@@ -9,7 +9,7 @@ import lombok.ToString;
 @Setter
 @NoArgsConstructor
 @ToString
-public class PostLogActivity {
+public class PostActivityLog {
     private int value;
     private String key;
 }
