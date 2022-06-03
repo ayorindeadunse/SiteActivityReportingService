@@ -16,13 +16,9 @@ import java.util.Date;
 @NoArgsConstructor
 @ToString
 
-@Entity
 public class ActivityLog {
-   @Id
-   @GeneratedValue(strategy = GenerationType.IDENTITY)
-   private int id;
-   private String activityKey;
    private int activityValue;
+   private String activityKey;
    private Date dateLogged;
    private Date dateModified;
 }
