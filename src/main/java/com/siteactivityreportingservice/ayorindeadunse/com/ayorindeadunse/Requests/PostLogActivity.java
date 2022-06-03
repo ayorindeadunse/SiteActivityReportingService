@@ -10,5 +10,6 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class PostLogActivity {
-    private String value;
+    private int value;
+    private String key;
 }

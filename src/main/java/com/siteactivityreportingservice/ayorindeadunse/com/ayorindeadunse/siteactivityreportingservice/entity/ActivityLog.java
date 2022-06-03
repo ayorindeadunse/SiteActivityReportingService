@@ -20,7 +20,7 @@ import java.util.Date;
 public class ActivityLog {
    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
-   private int key;
+   private int id;
    private String activityKey;
    private int activityValue;
    private Date dateLogged;
